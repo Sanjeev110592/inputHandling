@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormInput</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="post">
+        <label for="">Your name:</label><br>
+        <input type="text" placeholder="Enter your name" class="margin" name="name"><br>
+        <label for="">Your email:</label><br>
+        <input type="email" placeholder="Enter your email" class="margin" name="email"><br>
+        <label for="">What do you love?</label><br>
+        <select name="hobby" id="" class="margin">
+            <option value=""></option>
+            <option value="movies">Movies</option>
+            <option value="singing">Singing</option>
+            <option value="coding">Coding</option>
+            <option value="wondering">Wondering</option>
+        </select><br>
+        <label for="">Choose color:</label><br>
+        <input type="color" name="color"><br>
+        <label for="">Rate your choice:</label><br>
+        <input type="range" class="margin" name="rating">
+        <div class="rad">
+            <label for="">Book genere you love?</label><br>
+            <input type="radio" value="Fiction" name="choice">
+            <label for="">Fiction</label><br>
+            <input type="radio" value="Non Fiction" name="choice">
+            <label for="">Non Fiction</label><br>
+            <input type="radio" value="Adventur" name="choice">
+            <label for="">Adventur</label>
+        </div>
+        <input type="checkbox" class="" name="check">
+        <label for="">I Agree to Terms</label>
+        <button type="submit">submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
